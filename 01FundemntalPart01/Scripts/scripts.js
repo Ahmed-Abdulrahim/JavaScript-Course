@@ -31,3 +31,24 @@ if (fHalf>6) alert("bigger than");
 if (fHalf<6) alert("lessthan than");
 let description = "Portugal is in Europe, and its 11 million people speak portuguese"
 //----------------------------------------------------------
+//12  Strings and Template Literals
+const fName = "Ahmed";
+const lName = "Mohamed";
+const year = 2025;
+const birthDate = 2001;
+let details = "iam " + fName +"," + lName+"iam "+
+(year-birthDate) + "YearsOld";
+console.log(details);
+details = `iam ${fName} ${lName} , ${year-birthDate} Years Old`;
+ console.log(details);
+ const mulitplelines = "random\nMultiple\nLines";
+ console.log(mulitplelines);
+ const randomString = `hello
+ From
+ Multiple
+ Line`
+ console.log(randomString);
+//----------------------------------------------------
+
+
+
