@@ -1,24 +1,11 @@
 //#1 Bmi
-let bmiMark , johnBmi;
-let markHeight, markMass;
-let johnHeight  , johnMass;
-markHeight = 1.88;
-markMass = 95;
-johnHeight = 1.76;
-johnMass=85;
-bmiMark = markMass/markHeight**2;
-console.log(bmiMark);
-johnBmi = johnMass / johnHeight**2;
-console.log(johnBmi);
-//--------------------------------------
 //TestData1
-markHeight = 1.69;
-markMass = 78;
-johnHeight = 1.95;
-johnMass = 92;
-bmiMark = markMass/markHeight**2;
-console.log(bmiMark);
-johnBmi = johnMass / johnHeight**2;
-console.log(johnBmi);
+const markHeight = 1.69;
+const markMass = 78;
+const johnHeight = 1.95;
+const johnMass = 92;
+const bmiMark = markMass/markHeight**2;
+const johnBmi = johnMass / johnHeight**2;
+console.log(bmiMark , johnBmi);
 const markHigherBMI = bmiMark>johnBmi;
 console.log(markHigherBMI)
