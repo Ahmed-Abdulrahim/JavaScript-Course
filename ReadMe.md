@@ -2,8 +2,8 @@
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-Learning-yellow?style=for-the-badge&logo=javascript)
 ![Status](https://img.shields.io/badge/Status-In_Progress-blue?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge)
-![Forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge)
+![Stars](https://img.shields.io/github/stars/Ahmed-Abdulrahim/JavaScript-Course?style=for-the-badge)
+![Forks](https://img.shields.io/github/forks/Ahmed-Abdulrahim/JavaScript-Course?style=for-the-badge)
 
 ---
 
@@ -26,3 +26,4 @@ JavaScript-Learning/
 ├── 04-ES6-Features/       # let, const, template literals, destructuring, etc.
 ├── 05-Projects/           # Small practice projects
 └── README.md
+
