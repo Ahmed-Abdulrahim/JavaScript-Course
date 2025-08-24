@@ -86,7 +86,7 @@ console.log(Number(Aage));
 console.log("45"+25+"10");//452510
 console.log("45"-"52");//-7
 console.log(5-2-1+"8"+"9")//289
-console.log(5-2-9+"8"-"9")//-77*/
+console.log(5-2-9+"8"-"9")//-77
 //---------------------------------------------
 //false values -----> 0 , null , undefined , Nan , '' 
 console .log(Boolean(0));
@@ -105,6 +105,32 @@ if(height || height == 0)
         console.log("Height is Not Deifned");
     } 
 //---------------------------------------------------------------------
+//Equality op === vs ==
+//--->=== Strict op , -->==Loose Op
+console.log (18===18) //true
+console.log("18"===18)//false
+//--
+console.log("18"==18)// true
+//---------------------------------------------------------------------
+//--Logicla op 
+const hasDrivingLicense = true;
+const hasDrivingSkills = true;
+if(hasDrivingLicense && hasDrivingSkills)//true && true ---> true
+{
+    console.log("Every Value is True")
+}
+
+if(hasDrivingLicense || hasDrivingSkills)//true && true ---> true ,,,,,,, //true && False ---> true
+{
+    console.log("Every Value is True")
+}
+
+if(!hasDrivingLicense)
+    {
+        console.log("revrse value") // true--->false ,,,,,,,,,,,,fasle-->true
+    }*/
+//-------------------------------------------------------------------------
+
 
 
 
