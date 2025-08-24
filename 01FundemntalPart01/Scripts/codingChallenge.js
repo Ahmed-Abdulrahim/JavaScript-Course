@@ -21,4 +21,55 @@ else
   
     }
 //---------------------------------------------------------
-//#3   */
+//#3     TestData1
+const avgDolphins = (96+408+89)/3;
+const avgKoalas = (88+91+110)/3;
+if(avgDolphins>avgKoalas)
+    {
+        console.log("Team Dolphins Wins trophy");
+    }
+else if (avgDolphins<avgKoalas)
+    {
+        console.log("Team Koalas Wins trophy");
+
+    }
+else
+    {
+       console.log("Draw");
+
+    }
+//-TestData2
+const avgDolphins = (79+112+101)/3;
+const avgKoalas = (109+95+123)/3;
+if(avgDolphins>avgKoalas && avgDolphins>=100)
+    {
+        console.log("Team Dolphins Wins trophy");
+    }
+else if (avgDolphins<avgKoalas && avgKoalas >=100)
+    {
+        console.log("Team Koalas Wins trophy");
+
+    }
+else
+    {
+       console.log("Draw");
+
+    }*/
+//testData3
+const avgDolphins = (79+112+101)/3;
+const avgKoalas = (109+95+123)/3;
+if(avgDolphins>avgKoalas && avgDolphins>=100)
+    {
+        console.log("Team Dolphins Wins trophy");
+    }
+else if (avgDolphins<avgKoalas && avgKoalas >=100)
+    {
+        console.log("Team Koalas Wins trophy");
+
+    }
+else if (avgDolphins===avgKoalas && avgDolphins>=100)
+    {
+       console.log("Draw");
+
+    }
+//---------------------------------------------------------------
