@@ -49,6 +49,32 @@ details = `iam ${fName} ${lName} , ${year-birthDate} Years Old`;
  Line`
  console.log(randomString);
 //----------------------------------------------------
+//13 if else
+let age = 10;
+if (age>12)
+    {
+        console.log("Ypu area allowed to create Account"); 
+
+    }
+else
+    {
+        console.log(`you have to wait ${12-age}years old`);
+
+    }
+
+    const birthDay = 1800;
+    let century;
+    if (birthDay<=2000)
+        {
+             century = 20;
+        }
+    else
+        {
+             century  = 21;
+        }
+    console.log(century);
+//--------------------------------------------------------------------------
+    
 
 
 
