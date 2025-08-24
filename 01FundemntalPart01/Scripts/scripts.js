@@ -130,6 +130,28 @@ if(!hasDrivingLicense)
         console.log("revrse value") // true--->false ,,,,,,,,,,,,fasle-->true
     }*/
 //-------------------------------------------------------------------------
+//Switch Case
+const day = 'Sun';
+switch(day)
+{
+    case 'Sat':
+        console.log("Sat");
+        break;
+    case 'Sun':
+    case 'mon':
+        console.log("Sun and Mon");
+        break;
+    case 'tue':
+    case 'Wed':
+        console.log("tue and Wed");
+        break;
+    case 'thurs':
+        console.log("thurs");
+        break;
+    default:
+        console.log("fri");
+        break;
+}
 
 
 
