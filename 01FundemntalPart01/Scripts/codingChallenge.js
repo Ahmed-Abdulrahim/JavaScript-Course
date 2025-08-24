@@ -71,5 +71,22 @@ else if (avgDolphins===avgKoalas && avgDolphins>=100)
     {
        console.log("Draw");
 
-    }*/
+    }
 //---------------------------------------------------------------
+//4
+//test Data1
+const bill = 275;
+const tip = 300>bill>50? bill*.15 :bill*.20;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value 
+${bill+tip} `);
+//TestData2
+const bill = 40;
+const tip = 300>bill>50? bill*.15 :bill*.20;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value 
+${bill+tip} `);*/
+//testData3
+const bill = 430;
+const tip = 300>bill>50? bill*.15 :bill*.20;
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value 
+${bill+tip} `);
+
