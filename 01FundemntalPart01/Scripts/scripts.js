@@ -151,13 +151,13 @@ switch(day)
     default:
         console.log("fri");
         break;
-}*/
+}
 //---------------------------------------------------------
 //ternary op
 const age = 15;
 const result = age>=15?'Drink wine 🍷':'Drink water 💧';
 console.log(result);
-console.log(`i want to Drink ${age>=15?'Drink wine 🍷':'Drink water 💧'}`);
+console.log(`i want to Drink ${age>=15?'Drink wine 🍷':'Drink water 💧'}`);*/
 //-----------------------------------------------------------
 
 
