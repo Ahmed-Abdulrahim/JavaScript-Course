@@ -1,5 +1,5 @@
 ///6
-let country = "Egypt";
+/*let country = "Egypt";
 let continent = "Africa";
 let population = 10;
 console.log(country);
@@ -86,9 +86,25 @@ console.log(Number(Aage));
 console.log("45"+25+"10");//452510
 console.log("45"-"52");//-7
 console.log(5-2-1+"8"+"9")//289
-console.log(5-2-9+"8"-"9")//-77
+console.log(5-2-9+"8"-"9")//-77*/
 //---------------------------------------------
-
+//false values -----> 0 , null , undefined , Nan , '' 
+console .log(Boolean(0));
+console .log(Boolean(null));
+console .log(Boolean(undefined));
+console .log(Boolean(NaN));
+console .log(Boolean({}));
+console .log(Boolean("Ahmed"));
+let height = 0;
+if(height || height == 0)
+    {
+        console.log("Height is Alerady Deifned");
+    }
+   else
+    {
+        console.log("Height is Not Deifned");
+    } 
+//---------------------------------------------------------------------
 
 
 
