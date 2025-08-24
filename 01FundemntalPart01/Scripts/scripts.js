@@ -74,7 +74,22 @@ else
         }
     console.log(century);
 //--------------------------------------------------------------------------
-    
+//Type conversion vs Coercion
+let Aage = "45";
+console.log(Number(Aage));
+Aage = 45
+console.log(String(Aage) , 45);
+Aage = "Hello";
+console.log(Number(Aage));
+//------------------------------
+//Coercion
+console.log("45"+25+"10");//452510
+console.log("45"-"52");//-7
+console.log(5-2-1+"8"+"9")//289
+console.log(5-2-9+"8"-"9")//-77
+//---------------------------------------------
+
+
 
 
 
