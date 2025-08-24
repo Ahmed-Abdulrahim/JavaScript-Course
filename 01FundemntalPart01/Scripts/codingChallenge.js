@@ -1,6 +1,6 @@
 //#1 Bmi
 //TestData1
-const markHeight = 1.69;
+/*const markHeight = 1.69;
 const markMass = 78;
 const johnHeight = 1.95;
 const johnMass = 92;
@@ -20,6 +20,5 @@ else
       console.log(` John'Bmi${johnBmi}is higher thanMark's Bmi ${bmiMark} `); 
   
     }
-
 //---------------------------------------------------------
-//#3   
+//#3   */
