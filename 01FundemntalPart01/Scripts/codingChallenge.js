@@ -54,7 +54,7 @@ else
     {
        console.log("Draw");
 
-    }*/
+    }
 //testData3
 const avgDolphins = (79+112+101)/3;
 const avgKoalas = (109+95+123)/3;
@@ -71,5 +71,5 @@ else if (avgDolphins===avgKoalas && avgDolphins>=100)
     {
        console.log("Draw");
 
-    }
+    }*/
 //---------------------------------------------------------------
