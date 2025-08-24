@@ -128,7 +128,7 @@ if(hasDrivingLicense || hasDrivingSkills)//true && true ---> true ,,,,,,, //true
 if(!hasDrivingLicense)
     {
         console.log("revrse value") // true--->false ,,,,,,,,,,,,fasle-->true
-    }*/
+    }
 //-------------------------------------------------------------------------
 //Switch Case
 const day = 'Sun';
@@ -151,7 +151,14 @@ switch(day)
     default:
         console.log("fri");
         break;
-}
+}*/
+//---------------------------------------------------------
+//ternary op
+const age = 15;
+const result = age>=15?'Drink wine 🍷':'Drink water 💧';
+console.log(result);
+console.log(`i want to Drink ${age>=15?'Drink wine 🍷':'Drink water 💧'}`);
+//-----------------------------------------------------------
 
 
 
