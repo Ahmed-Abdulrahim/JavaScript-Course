@@ -30,3 +30,16 @@ checkWinner(avgDolphine , avgKoalas);//winner Data1;
 checkWinner(avgDolphine , avgKoalas);//winner Data2;*/
 //--------------------------------------------------------------------
 //2
+const calcTip = (bill)=> tip = 300>bill>50? bill*.15 :bill*.20;
+
+const calcTotal = function (bill)
+{
+  const tip = 300>bill>50? bill*.15 :bill*.20;
+return tip+bill;
+}
+
+const tips = [calcTip(125) , calcTip(555) , calcTip(44)];
+const total = [calcTotal(125) , calcTotal(555) , calcTotal(44)];
+console.log(tips);
+console.log(total);
+//------------------------------------
