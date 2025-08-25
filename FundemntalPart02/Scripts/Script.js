@@ -58,7 +58,7 @@ const fruitProcessor = function (apples , oranges)
     const juice = `juice with ${applePieces} Apples and ${orangePieces} Oranges `; 
     return juice
 }
-console.log(fruitProcessor(5,6));*/
+console.log(fruitProcessor(5,6));
 //-----------------------------------------------------------------------------
 //Array
 const day = ["sat" , 2 , "mon"];
@@ -75,5 +75,5 @@ console.log(day1);
 let num = day1.indexOf("0");
 console.log(num);
  num = day1.includes("0");
-console.log(num);
+console.log(num);*/
 //-----------------------------------------------
