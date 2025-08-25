@@ -60,3 +60,20 @@ const fruitProcessor = function (apples , oranges)
 }
 console.log(fruitProcessor(5,6));*/
 //-----------------------------------------------------------------------------
+//Array
+const day = ["sat" , 2 , "mon"];
+const day1 = new Array("sat" , 2 , day);
+console.log(day[2]);
+console.log(day);
+const le = day1.push("tues");//return length
+console.log (le);
+console.log(day1);
+day1.pop();
+console.log(day1);
+day1.unshift("0");
+console.log(day1);
+let num = day1.indexOf("0");
+console.log(num);
+ num = day1.includes("0");
+console.log(num);
+//-----------------------------------------------
