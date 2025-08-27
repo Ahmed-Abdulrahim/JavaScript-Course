@@ -27,7 +27,7 @@ console.log(avgDolphine , avgKoalas)
 checkWinner(avgDolphine , avgKoalas);//winner Data1;
  avgDolphine = calcAverage(85,54,41);
  avgKoalas = calcAverage(23,34,27);
-checkWinner(avgDolphine , avgKoalas);//winner Data2;*/
+checkWinner(avgDolphine , avgKoalas);//winner Data2;
 //--------------------------------------------------------------------
 //2
 const calcTip = (bill)=> tip = 300>bill>50? bill*.15 :bill*.20;
@@ -41,5 +41,5 @@ return tip+bill;
 const tips = [calcTip(125) , calcTip(555) , calcTip(44)];
 const total = [calcTotal(125) , calcTotal(555) , calcTotal(44)];
 console.log(tips);
-console.log(total);
+console.log(total);*/
 //------------------------------------

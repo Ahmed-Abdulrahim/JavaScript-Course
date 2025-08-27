@@ -61,12 +61,12 @@ const fruitProcessor = function (apples , oranges)
 console.log(fruitProcessor(5,6));
 //-----------------------------------------------------------------------------
 //Array
-const day = ["sat" , 2 , "mon"];
-const day1 = new Array("sat" , 2 , day);
+const day = ["sat", 2, "mon"];
+const day1 = new Array("sat", 2, day);
 console.log(day[2]);
 console.log(day);
-const le = day1.push("tues");//return length
-console.log (le);
+const le = day1.push("tues"); //return length
+console.log(le);
 console.log(day1);
 day1.pop();
 console.log(day1);
@@ -74,6 +74,28 @@ day1.unshift("0");
 console.log(day1);
 let num = day1.indexOf("0");
 console.log(num);
- num = day1.includes("0");
+num = day1.includes("0");
 console.log(num);*/
 //-----------------------------------------------
+//object
+const details = {
+  firstName: "Ahmed",
+  lastName: "Mohamed",
+  birthYear: 2001,
+  job: "Sw",
+  hasDriverLicencse: false,
+  friend: ["Ayman", "Zakria", "Omar"],
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+  summary: function () {
+    return `${this.firstName} has a ${this.calcAge()} and he has ${
+      this.hasDriverLicencse ? "a DriverLicense" : "not a Driver License"
+    } and his job is a ${this.job}`;
+  },
+};
+
+console.log(details.summary());
+console.log(details.friend[0]);
+//-----------------------------------------------------
