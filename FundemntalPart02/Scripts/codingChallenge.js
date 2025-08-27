@@ -41,7 +41,7 @@ return tip+bill;
 const tips = [calcTip(125) , calcTip(555) , calcTip(44)];
 const total = [calcTotal(125) , calcTotal(555) , calcTotal(44)];
 console.log(tips);
-console.log(total);*/
+console.log(total);
 //------------------------------------
 //3
 const Mark = {
@@ -72,4 +72,6 @@ console.log(
           Mark.fullName
         }'Bmi${Mark.calcBmi()}`
   }`
-);
+);*/
+//-----------------------------------------
+//4
