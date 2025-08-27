@@ -99,6 +99,7 @@ const details = {
 console.log(details.summary());
 console.log(details.friend[0]);
 //-----------------------------------------------------
+//loops
 let week = [1, 2, 3, 4, 5, 6, 7];
 let day = [];
 for (let i = 0; i < week.length; i++) {
@@ -117,10 +118,23 @@ day = [];
 for (let i = 0; i < week.length; i++) {
   if (week[i] === 3) continue; //يروح للفه اللى بعدها من غير مينفذ الباقي
   console.log(week[i]);
-}*/
+}
 week = [1, 2, 3, 4, 5, 6, 7];
 day = [];
 for (let i = 0; i < week.length; i++) {
   if (week[i] === 3) break; //يطلع من اللوب خالص
   console.log(week[i]);
 }
+let rep = 0;
+while (rep <= 10) {
+  console.log(rep);
+  rep++;
+}
+
+let dise = Math.trunc(Math.random() * 6) + 1;
+console.log(dise);
+while (dise !== 6) {
+  console.log(dise);
+  dise = Math.trunc(Math.random() * 6) + 1;
+  if (dise === 6) console.log("loop is ended");
+}*/
