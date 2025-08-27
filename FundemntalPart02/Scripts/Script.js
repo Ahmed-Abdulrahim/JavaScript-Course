@@ -75,7 +75,7 @@ console.log(day1);
 let num = day1.indexOf("0");
 console.log(num);
 num = day1.includes("0");
-console.log(num);*/
+console.log(num);
 //-----------------------------------------------
 //object
 const details = {
@@ -99,3 +99,28 @@ const details = {
 console.log(details.summary());
 console.log(details.friend[0]);
 //-----------------------------------------------------
+let week = [1, 2, 3, 4, 5, 6, 7];
+let day = [];
+for (let i = 0; i < week.length; i++) {
+  day[i] = week[i];
+  console.log(day[i]);
+}
+week = [1, 2, 3, 4, 5, 6, 7];
+day = [];
+for (let i = 0; i < week.length; i++) {
+  day.push(week[i]);
+  console.log(day[i]);
+}
+
+week = [1, 2, 3, 4, 5, 6, 7];
+day = [];
+for (let i = 0; i < week.length; i++) {
+  if (week[i] === 3) continue; //يروح للفه اللى بعدها من غير مينفذ الباقي
+  console.log(week[i]);
+}*/
+week = [1, 2, 3, 4, 5, 6, 7];
+day = [];
+for (let i = 0; i < week.length; i++) {
+  if (week[i] === 3) break; //يطلع من اللوب خالص
+  console.log(week[i]);
+}
