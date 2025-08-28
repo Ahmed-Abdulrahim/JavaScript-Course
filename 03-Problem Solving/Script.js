@@ -13,7 +13,7 @@
 // - Find max value in temp array
 // - Find min value in temp array
 // - Subtract min from max (amplitude) and return it
-const temp = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
+/*const temp = [3, -2, -6, -1, "error", 9, 13, 17, 15, 14, 9, 5];
 const calcTempaamplitude = function (temp) {
   let maxElement = temp[0];
   let minElement = temp[0];
@@ -43,4 +43,18 @@ const calcTempaamplitudeNew = function (t1, t2) {
 
 const t1 = [4, 65, 78, 98, 5];
 const t2 = [4, 87, 7, 9];
-console.log(calcTempaamplitudeNew(t1, t2));
+console.log(calcTempaamplitudeNew(t1, t2));*/
+//----------------
+//Challenge 1
+/*Given an array of forecasted maximum temperatures, the thermometer displays a
+string with the given temperatures. Example: [17, 21, 23] will print "... 17ºC in 1
+days ... 21ºC in 2 days ... 23ºC in 3 days ..."*/
+const printForecast = function (f1) {
+  let res = "";
+  for (let i = 0; i < f1.length; i++) {
+    res = res + `...${f1[i]}ºC in ${i + 1} day`;
+  }
+  return res;
+};
+
+console.log(printForecast([12, 5, -5, 0, 4]));
