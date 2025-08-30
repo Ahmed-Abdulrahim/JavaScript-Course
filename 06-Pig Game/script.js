@@ -10,15 +10,27 @@ const playerScore1 = document.getElementById('current--1');
 const active0 = document.querySelector('.player--0');
 const active1 = document.querySelector('.player--1');
 
-score0Element.textContent = 0;
-score1Element.textContent = 0;
-diceElement.classList.add('hidden');
-//Save total score
-const totalScore = [0, 0];
-let currentScore = 0;
-//active Player
-let activePlayer = 0;
-let gameOver = false;
+//Declare Variable
+let totalScore, currentScore, activePlayer, gameOver;
+//init function
+const init = function () {
+  diceElement.classList.add('hidden');
+  score0Element.textContent = 0;
+  score1Element.textContent = 0;
+  playerScore0.textContent = 0;
+  playerScore1.textContent = 0;
+  totalScore = [0, 0];
+  currentScore = 0;
+
+  activePlayer = 0;
+  active0.classList.remove('player--winner');
+  active1.classList.remove('player--winner');
+  active0.classList.remove('player--winner');
+  active0.classList.add('player--active');
+  active1.classList.remove('player--active');
+  gameOver = false;
+};
+init();
 //SwitchPlayer
 const switchPlayer = function () {
   currentScore = 0;
@@ -56,7 +68,7 @@ holdDice.addEventListener('click', function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       totalScore[activePlayer];
     // check if value >=100
-    if (totalScore[activePlayer] >= 20) {
+    if (totalScore[activePlayer] >= 100) {
       // Add class Winner to Change bgColor
       document
         .querySelector(`.player--${activePlayer}`)
@@ -73,3 +85,5 @@ holdDice.addEventListener('click', function () {
     }
   }
 });
+
+newDice.addEventListener('click', init);
