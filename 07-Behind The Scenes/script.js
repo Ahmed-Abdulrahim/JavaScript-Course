@@ -83,3 +83,20 @@ let age2 = age;
 console.log('Before' + 'age is ' + age + 'and age 2 is ' + age2);
 age = 30;
 console.log('Before' + 'age is ' + age + 'and age 2 is ' + age2); // age 2 not change because the value in Stack
+// Refernce
+const object1 = {
+  _name: 'Ahmed',
+  age: 24,
+};
+const object2 = object1;
+console.log('Before object 1', object1);
+console.log('object2 ', object2);
+object2.city = 'cairo';
+// the Both Change Because they refernce to the Same address in Ram
+console.log('After object 1', object1);
+console.log('object2 ', object2);
+// to make an copy of it Use a Method Assign
+const object3 = Object.assign({}, object1);
+object1.num = 123;
+console.log(object1);
+console.log(object3);
