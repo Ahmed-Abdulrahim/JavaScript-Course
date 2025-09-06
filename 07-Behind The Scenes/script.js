@@ -40,7 +40,7 @@ console.log(this); // window Object
 var calcAge2 = birthYear => {
   console.log(2025 - birthYear);
   console.log(this); // the parent of this => window Object
-};*/
+};
 //calcAge2(2001);
 const ahmed = {
   _name: 'ahmed',
@@ -56,4 +56,25 @@ const mohamed = {
   age: 323,
 };
 mohamed.calcYear = ahmed.calcYear; // Method Borrowing
-mohamed.calcYear();
+mohamed.calcYear();*/
+//-------------------------------------reglar fun vs arrow fun
+const car = {
+  _name: 'BMW',
+  model: 2020,
+  year: function () {
+    console.log(this); //car object
+    const color = function () {
+      console.log('red');
+
+      console.log(this); // undeifend
+    };
+    color();
+  },
+  print: () => {
+    console.log(this);
+    console.log(`this is car`);
+  },
+};
+car.year();
+car.print();
+//-----------------------------------------------
