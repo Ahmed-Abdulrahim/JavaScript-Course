@@ -56,7 +56,7 @@ const mohamed = {
   age: 323,
 };
 mohamed.calcYear = ahmed.calcYear; // Method Borrowing
-mohamed.calcYear();*/
+mohamed.calcYear();
 //-------------------------------------reglar fun vs arrow fun
 const car = {
   _name: 'BMW',
@@ -76,5 +76,10 @@ const car = {
   },
 };
 car.year();
-car.print();
-//-----------------------------------------------
+car.print();*/
+//----------------------------------------primitive vs Refernce
+let age = 10;
+let age2 = age;
+console.log('Before' + 'age is ' + age + 'and age 2 is ' + age2);
+age = 30;
+console.log('Before' + 'age is ' + age + 'and age 2 is ' + age2); // age 2 not change because the value in Stack
