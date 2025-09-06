@@ -95,7 +95,7 @@ object2.city = 'cairo';
 // the Both Change Because they refernce to the Same address in Ram
 console.log('After object 1', object1);
 console.log('object2 ', object2);
-// to make an copy of it Use a Method Assign
+// to make an copy of it Use a Method Assign => make an
 const object3 = Object.assign({}, object1);
 object1.num = 123;
 console.log(object1);
